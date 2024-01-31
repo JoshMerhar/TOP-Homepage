@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: azure;
+}
+
+.about-section {
+    border: 3px solid black;
+    margin: 5px;
+    height: 400px;
+}
+
+.projects-section {
+    border: 3px solid black;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.project-image {
+    height: 65%;
+    border: 2px solid maroon;
+}
+
+.card-description {
+    height: 35%;
+    border: 2px solid gray;
+}
+
+.contact-section {
+    border: 3px solid black;
+    margin: 5px;
+    height: 400px;
+}
