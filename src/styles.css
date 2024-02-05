@@ -4,19 +4,28 @@
 
 body {
     margin: auto;
-    background-color: cornsilk;
+    background-color: gainsboro;
+}
+
+img {
+    display: block;
 }
 
 .about-section {
+    background: linear-gradient(175deg, rgb(45, 180, 190) 50%, gainsboro 50%);
+}
+
+.about-content {
+    max-width: 1440px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5vh 10vw;
-    background: linear-gradient(170deg, aqua 50%, cornsilk 50%);
+    margin: auto;
 }
 
 .about-name {
-    color: whitesmoke;
+    color: black;
     font-size: 50px;
     margin: 0;
 }
@@ -30,14 +39,17 @@ body {
     align-items: flex-start;
     height: 450px;
     width: 400px;
-    border: 3px solid lime;
-    background-color: slateblue;
+    background-image: url(./images/Smaller_me_pic.JPG);
+    background-size: cover;
+    border-radius: 15px;
 }
 
 .about-text-box {
     height: fit-content;
+    margin-left: -25px;
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 2rem;
+    border-radius: 15px;
 }
 
 .about-title {
@@ -51,43 +63,76 @@ body {
 }
 
 .projects-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    justify-items: center;
     align-items: center;
     padding: 0 10vw 5vh 10vw;
-    gap: 40px;
+    grid-gap: 2rem;
+    margin: auto;
 }
 
 .project-card {
-    width: 425px;
+    width: 100%;
     height: 475px;
     display: flex;
     flex-direction: column;
-    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 7px 7px 3px darkslategray;
 }
 
 .project-image {
     height: 65%;
-    border: 2px solid maroon;
+    object-fit: contain;
+    background-color: rgb(45, 180, 190);
+    border-radius: 15px 15px 0 0;
 }
 
 .card-description {
     height: 35%;
-    border: 2px solid gray;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.project-title-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-title {
+    margin: 0 0 20px 0;
+}
+
+.project-description {
+    font-size: 18px;
 }
 
 .contact-section {
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    padding: 0 10vw;
-    background-color: aqua;
+    background-color: rgb(45, 180, 190);
 }
 
-.contact-info,
-.contact-picture-space {
-    width: 100%;
+.contact-content {
+    max-width: 1440px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    margin: auto;
+}
+
+.contact-info {
+    height: 100%;
+}
+
+.contact-picture {
+    display: block;
+    height: 95%;
+    margin: 1rem 0;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 @media (min-width: 769px) and (max-width: 1150px) {
@@ -104,18 +149,18 @@ body {
         font-size: 20px;
     }
     
-    .projects-section {
-        gap: 20px;
-    }
-    
     .project-card {
         width: 300px;
-        height: 365px;
+        height: 425px;
+    }
+
+    .project-description {
+        font-size: 16px;
     }
 }
 
 @media (max-width: 768px) {
-    .about-section {
+    .about-content {
         padding: 5vh 5vw;
     }
     
@@ -141,21 +186,16 @@ body {
     }
 
     .projects-section {
-        padding: 0 5vw;
+        padding: 0 5vw 3vh 5vw;
     }
 
-    .project-card {
-        width: 275px;
-        height: 325px;
-    }
-
-    .contact-section {
+    .contact-content {
         padding: 0 5vw;
     }
 }
 
 @media (max-width: 575px) {
-    .about-section {
+    .about-content {
         flex-direction: column;
         align-items: center;
     }
@@ -164,13 +204,15 @@ body {
         height: 350px;
         width: 300px;
         margin: auto;
+        border-radius: 15px 15px 0 0;
     }
 
     .about-text-box {
         width: 300px;
-        padding: 5px;
+        padding: .5rem;
         height: fit-content;
-        translate: 0;
+        margin-left: 0;
+        border-radius: 0 0 15px 15px;
     }
 
     .about-title {
@@ -185,9 +227,23 @@ body {
         justify-content: center;
     }
 
-    .contact-section {
+    .project-card {
+        width: 300px;
+        height: 365px;
+    }
+
+    .project-description {
+        font-size: 14px;
+    }
+
+    .contact-content {
         flex-direction: column;
-        height: auto;
         align-items: center;
+        height: auto;
+    }
+
+    .contact-picture {
+        height: 400px;
+        padding: 0;
     }
 }
