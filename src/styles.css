@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 body {
@@ -161,6 +164,30 @@ img.link-icon {
     padding: 2rem 0;
 }
 
+.contact-blurb,
+.address,
+.phone-email {
+    padding: .5rem 0;
+    font-size: 18px;
+}
+
+.phone-email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.phone-email-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact-icon {
+    height: 35px;
+}
+
 .contact-picture {
     display: block;
     height: 95%;
@@ -278,6 +305,10 @@ img.link-icon {
         height: 365px;
     }
 
+    .project-image{
+        width: 100%;
+    }
+
     .project-description {
         font-size: 14px;
     }
@@ -288,8 +319,19 @@ img.link-icon {
         height: auto;
     }
 
+    .contact-blurb,
+    .address,
+    .phone-email {
+        padding: .5rem 0;
+        font-size: 14px;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
     .contact-picture {
-        height: 400px;
+        max-width: 350px;
         padding: 0;
     }
 }
