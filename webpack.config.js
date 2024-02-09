@@ -18,6 +18,10 @@ module.exports = {
             test: /\.(png|jpg|jpeg|jpg_large|gif|svg)$/i,
             type: "asset/resource",
           },
+          {
+            test: /\.html$/i,
+            loader: "html-loader",
+          },
         ],
     },
     plugins: [

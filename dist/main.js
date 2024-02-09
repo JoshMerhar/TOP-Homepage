@@ -50,6 +50,26 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./src/index.html":
+/*!************************!*\
+  !*** ./src/index.html ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/drums.jpg */ \"./src/images/drums.jpg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../src/icons/youtube.svg */ \"./src/icons/youtube.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/Battleship_screenshot.png */ \"./src/images/Battleship_screenshot.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../src/icons/link-box.svg */ \"./src/icons/link-box.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/Todo_list_screenshot.png */ \"./src/images/Todo_list_screenshot.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/calculator_screenshot.png */ \"./src/images/calculator_screenshot.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/tic-tac-toe_screenshot.png */ \"./src/images/tic-tac-toe_screenshot.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/etch-a-sketch_screenshot.png */ \"./src/images/etch-a-sketch_screenshot.png\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../src/icons/cellphone-basic.svg */ \"./src/icons/cellphone-basic.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../src/icons/email-outline.svg */ \"./src/icons/email-outline.svg\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../src/images/GoGurt_cropped.jpg */ \"./src/images/GoGurt_cropped.jpg\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_2___);\nvar ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);\nvar ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);\nvar ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);\nvar ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);\nvar ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);\nvar ___HTML_LOADER_REPLACEMENT_8___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_8___);\nvar ___HTML_LOADER_REPLACEMENT_9___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_9___);\nvar ___HTML_LOADER_REPLACEMENT_10___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_10___);\nvar code = \"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n    <meta charset=\\\"UTF-8\\\">\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n    <title>Homepage</title>\\n</head>\\n<body>\\n    <div class=\\\"about-section\\\">\\n        <div class=\\\"about-content\\\">\\n            <div class=\\\"about-image\\\">\\n                <h1 class=\\\"about-name\\\">Josh Merhar</h1>\\n            </div>\\n            <div class=\\\"about-text-box\\\">\\n                <h1 class=\\\"about-title\\\">About Me:</h1>\\n                <p class=\\\"about-text\\\">A 2014 graduate of Berklee College of Music, I'm currently a professional drummer and private drum teacher living in Boston, MA. \\n                    While I love what I do, I'm looking to begin a career in web development. Aside from drumming in my bands, teaching, and learning programming,\\n                    I enjoy solving Rubik's cubes and hanging out with my cat, Go-Gurt. Below are a few links to some of my favorite projects so far, as well as a link\\n                    to my YouTube channel where I host over 120 drum lesson videos.</p>\\n            </div>\\n        </div>\\n    </div>\\n    <div><h1 class=\\\"project-section-title\\\">Some of my work:</h1></div>\\n    <div class=\\\"projects-section\\\">\\n        <div class=\\\"project-card\\\">\\n            <img class=\\\"project-image\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\">\\n            <div class=\\\"card-description\\\">\\n                <div class=\\\"project-title-line\\\">\\n                    <h3 class=\\\"project-title\\\">My YouTube Channel</h3>\\n                    <div class=\\\"project-link-icons\\\">\\n                        <a href=\\\"https://www.youtube.com/@JoshMerhar\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\"></a>\\n                    </div>\\n                </div>\\n                <div class=\\\"project-description\\\">Over 120 drum lesson videos covering a swath of topics. Made for intermediate and advanced drummers.</div>\\n            </div>\\n        </div>\\n        <div class=\\\"project-card\\\">\\n            <img class=\\\"project-image\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_2___ + \"\\\">\\n            <div class=\\\"card-description\\\">\\n                <div class=\\\"project-title-line\\\">\\n                    <h3 class=\\\"project-title\\\">Battleship</h3>\\n                    <div class=\\\"project-link-icons\\\">\\n                        <a href=\\\"https://joshmerhar.github.io/TOP-Battleship/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\"></a>\\n                        <a href=\\\"https://github.com/JoshMerhar/TOP-Battleship\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg\\\" /></a>\\n                    </div>\\n                </div>\\n                <div class=\\\"project-description\\\">An implementation of Battleship where a human faces off against the computer.</div>\\n            </div>\\n        </div>\\n        <div class=\\\"project-card\\\">\\n            <img class=\\\"project-image\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_4___ + \"\\\">\\n            <div class=\\\"card-description\\\">\\n                <div class=\\\"project-title-line\\\">\\n                    <h3 class=\\\"project-title\\\">To-do List</h3>\\n                    <div class=\\\"project-link-icons\\\">\\n                        <a href=\\\"https://joshmerhar.github.io/TOP-Todo-List/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\"></a>\\n                        <a href=\\\"https://github.com/JoshMerhar/TOP-Todo-List\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg\\\" /></a>\\n                    </div>\\n                </div>\\n                <div class=\\\"project-description\\\">A little app to help you keep track of all those things you need to do.</div>\\n            </div>\\n        </div>\\n        <div class=\\\"project-card\\\">\\n            <img class=\\\"project-image\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_5___ + \"\\\">\\n            <div class=\\\"card-description\\\">\\n                <div class=\\\"project-title-line\\\">\\n                    <h3 class=\\\"project-title\\\">Calculator</h3>\\n                    <div class=\\\"project-link-icons\\\">\\n                        <a href=\\\"https://joshmerhar.github.io/TOP-calculator/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\"></a>\\n                        <a href=\\\"https://github.com/JoshMerhar/TOP-calculator\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg\\\" /></a>\\n                    </div>\\n                </div>\\n                <div class=\\\"project-description\\\">Fancy math-doing machine with clickable buttons.</div>\\n            </div>\\n        </div>\\n        <div class=\\\"project-card\\\">\\n            <img class=\\\"project-image\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_6___ + \"\\\">\\n            <div class=\\\"card-description\\\">\\n                <div class=\\\"project-title-line\\\">\\n                    <h3 class=\\\"project-title\\\">Tic-Tac-Toe</h3>\\n                    <div class=\\\"project-link-icons\\\">\\n                        <a href=\\\"https://joshmerhar.github.io/TOP-TicTacToe/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\"></a>\\n                        <a href=\\\"https://github.com/JoshMerhar/TOP-TicTacToe\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg\\\" /></a>\\n                    </div>\\n                </div>\\n                <div class=\\\"project-description\\\">Tic-tac-toe for two human players that are real humans.</div>\\n            </div>\\n        </div>\\n        <div class=\\\"project-card\\\">\\n            <img class=\\\"project-image\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_7___ + \"\\\"> \\n            <div class=\\\"card-description\\\">\\n                <div class=\\\"project-title-line\\\">\\n                    <h3 class=\\\"project-title\\\">Etch-a-Sketch</h3>\\n                    <div class=\\\"project-link-icons\\\">\\n                        <a href=\\\"https://joshmerhar.github.io/TOP-etch-a-sketch/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_3___ + \"\\\"></a>\\n                        <a href=\\\"https://github.com/JoshMerhar/TOP-etch-a-sketch\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\"><img class=\\\"link-icon\\\" src=\\\"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg\\\" /></a>\\n                    </div>\\n                </div>\\n                <div class=\\\"project-description\\\">Draw fantastic pixel images in any color you can conceive of.</div>\\n            </div>\\n        </div>\\n    </div>\\n    <div class=\\\"contact-section\\\">\\n        <div class=\\\"contact-content\\\">\\n            <div class=\\\"contact-info\\\">\\n                <h1 class=\\\"contact-title\\\">Contact me</h1>\\n                <div class=\\\"contact-blurb\\\">\\n                    <span>Please get in touch if you would like to work with me in any capacity. Go-Gurt will ensure the message gets through.</span>\\n                </div>\\n                <div class=\\\"address\\\">\\n                    <span>12 Something Road</span><br>\\n                    <span>Boston, MA 01234</span>\\n                </div>\\n                <div class=\\\"phone-email\\\">\\n                    <div class=\\\"phone-email-content\\\">\\n                        <img class=\\\"contact-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_8___ + \"\\\">\\n                        <span>555-123-4321</span><br>\\n                    </div>\\n                    <div class=\\\"phone-email-content\\\">\\n                        <img class=\\\"contact-icon\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_9___ + \"\\\">\\n                        <span>veryfake@notreal.com</span>\\n                    </div>\\n                </div>\\n            </div>\\n            <img class=\\\"contact-picture\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_10___ + \"\\\">\\n        </div>\\n    </div>\\n</body>\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://top-homepage/./src/index.html?");
+
+/***/ }),
+
+/***/ "./node_modules/html-loader/dist/runtime/getUrl.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/html-loader/dist/runtime/getUrl.js ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n\n  // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n  url = String(url.__esModule ? url.default : url);\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  }\n  if (options.maybeNeedQuotes && /[\\t\\n\\f\\r \"'=<>`]/.test(url)) {\n    return \"\\\"\".concat(url, \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://top-homepage/./node_modules/html-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
 /***/ "./src/styles.css":
 /*!************************!*\
   !*** ./src/styles.css ***!
@@ -126,7 +146,67 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n//# sourceURL=webpack://top-homepage/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.html */ \"./src/index.html\");\n\n\n\n//# sourceURL=webpack://top-homepage/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/icons/cellphone-basic.svg":
+/*!***************************************!*\
+  !*** ./src/icons/cellphone-basic.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"74ff2c6ad2f9ebc5d222.svg\";\n\n//# sourceURL=webpack://top-homepage/./src/icons/cellphone-basic.svg?");
+
+/***/ }),
+
+/***/ "./src/icons/email-outline.svg":
+/*!*************************************!*\
+  !*** ./src/icons/email-outline.svg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ffe24abaeb56c6af70c1.svg\";\n\n//# sourceURL=webpack://top-homepage/./src/icons/email-outline.svg?");
+
+/***/ }),
+
+/***/ "./src/icons/link-box.svg":
+/*!********************************!*\
+  !*** ./src/icons/link-box.svg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f7edd894e2940e5fc878.svg\";\n\n//# sourceURL=webpack://top-homepage/./src/icons/link-box.svg?");
+
+/***/ }),
+
+/***/ "./src/icons/youtube.svg":
+/*!*******************************!*\
+  !*** ./src/icons/youtube.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5ebca23b238db1fa7eba.svg\";\n\n//# sourceURL=webpack://top-homepage/./src/icons/youtube.svg?");
+
+/***/ }),
+
+/***/ "./src/images/Battleship_screenshot.png":
+/*!**********************************************!*\
+  !*** ./src/images/Battleship_screenshot.png ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ce668cd00aa590fdeaf4.png\";\n\n//# sourceURL=webpack://top-homepage/./src/images/Battleship_screenshot.png?");
+
+/***/ }),
+
+/***/ "./src/images/GoGurt_cropped.jpg":
+/*!***************************************!*\
+  !*** ./src/images/GoGurt_cropped.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f3889c2b7a119fd1decc.jpg\";\n\n//# sourceURL=webpack://top-homepage/./src/images/GoGurt_cropped.jpg?");
 
 /***/ }),
 
@@ -137,6 +217,56 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"523cf7e2ac598b3167ef.JPG\";\n\n//# sourceURL=webpack://top-homepage/./src/images/Smaller_me_pic.JPG?");
+
+/***/ }),
+
+/***/ "./src/images/Todo_list_screenshot.png":
+/*!*********************************************!*\
+  !*** ./src/images/Todo_list_screenshot.png ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"284b6d5400e610859765.png\";\n\n//# sourceURL=webpack://top-homepage/./src/images/Todo_list_screenshot.png?");
+
+/***/ }),
+
+/***/ "./src/images/calculator_screenshot.png":
+/*!**********************************************!*\
+  !*** ./src/images/calculator_screenshot.png ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a8bf3aea6e1a4ef3c5bc.png\";\n\n//# sourceURL=webpack://top-homepage/./src/images/calculator_screenshot.png?");
+
+/***/ }),
+
+/***/ "./src/images/drums.jpg":
+/*!******************************!*\
+  !*** ./src/images/drums.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"39c4960e2408814a45a8.jpg\";\n\n//# sourceURL=webpack://top-homepage/./src/images/drums.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/etch-a-sketch_screenshot.png":
+/*!*************************************************!*\
+  !*** ./src/images/etch-a-sketch_screenshot.png ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6f31880b7a3a15caad3a.png\";\n\n//# sourceURL=webpack://top-homepage/./src/images/etch-a-sketch_screenshot.png?");
+
+/***/ }),
+
+/***/ "./src/images/tic-tac-toe_screenshot.png":
+/*!***********************************************!*\
+  !*** ./src/images/tic-tac-toe_screenshot.png ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"15572506ccc161f23908.png\";\n\n//# sourceURL=webpack://top-homepage/./src/images/tic-tac-toe_screenshot.png?");
 
 /***/ })
 
